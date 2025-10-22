@@ -1,0 +1,62 @@
+{
+  "themes": [
+    {
+      "title": "Daytime Anchors",
+      "summary": "Morning light and caffeine timing shape nighttime sleep quality.",
+      "confidence": 0.75,
+      "claims": [
+        {
+          "text": "Morning light exposure helps anchor the circadian rhythm.",
+          "confidence": 0.69,
+          "citations": [
+            {
+              "source_id": "SRC_SLEEP_NOTES",
+              "start": 238,
+              "end": 300
+            }
+          ]
+        },
+        {
+          "text": "Avoiding caffeine after mid-afternoon can reduce nighttime disturbances.",
+          "confidence": 0.66,
+          "citations": [
+            {
+              "source_id": "SRC_SLEEP_NOTES",
+              "start": 211,
+              "end": 285
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Short Nap Strategy",
+      "summary": "10\u201320 minute power naps reduce sleep pressure without significant sleep inertia.",
+      "confidence": 0.72,
+      "claims": [
+        {
+          "text": "Short naps aid alertness without grogginess when kept under ~20 minutes.",
+          "confidence": 0.68,
+          "citations": [
+            {
+              "source_id": "SRC_SLEEP_NOTES",
+              "start": 79,
+              "end": 133
+            }
+          ]
+        },
+        {
+          "text": "Consistent pre-sleep routine and 18\u201320\u00b0C room temp improve sleep quality.",
+          "confidence": 0.71,
+          "citations": [
+            {
+              "source_id": "SRC_SLEEP_ARTICLE",
+              "start": 105,
+              "end": 153
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "themes": [
+    {
+      "title": "Verticalized AI Adoption",
+      "summary": "Niche, task-specific AI tools outpace general copilots among solo professionals.",
+      "confidence": 0.78,
+      "claims": [
+        {
+          "text": "Vertical-specific AI tools show stronger adoption than generic copilots in niche domains.",
+          "confidence": 0.74,
+          "citations": [
+            {
+              "source_id": "SRC_MARKET_NOTES",
+              "start": 149,
+              "end": 227
+            }
+          ]
+        },
+        {
+          "text": "Local-first storage and privacy are key buying drivers for solo users.",
+          "confidence": 0.71,
+          "citations": [
+            {
+              "source_id": "SRC_MARKET_NOTES",
+              "start": 47,
+              "end": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Decision Log Advantage",
+      "summary": "Teams maintaining decision logs report faster iteration velocity.",
+      "confidence": 0.76,
+      "claims": [
+        {
+          "text": "Maintaining a decision log correlates with ~20% faster shipping over a quarter.",
+          "confidence": 0.68,
+          "citations": [
+            {
+              "source_id": "SRC_MARKET_NOTES",
+              "start": 50,
+              "end": 104
+            }
+          ]
+        },
+        {
+          "text": "Connecting insights to decisions and next steps creates outsized value.",
+          "confidence": 0.72,
+          "citations": [
+            {
+              "source_id": "SRC_MARKET_ARTICLE",
+              "start": 73,
+              "end": 113
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

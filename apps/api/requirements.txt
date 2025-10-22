@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+pydantic[email]
+python-multipart
+PyPDF2
+python-dateutil
+markdown
+numpy
+faiss-cpu

@@ -1,0 +1,51 @@
+{
+  "themes": [
+    {
+      "title": "Vector Search Plan",
+      "summary": "Introduce FAISS-based semantic search over chunked sources.",
+      "confidence": 0.81,
+      "claims": [
+        {
+          "text": "Chunk size of ~800\u20131000 tokens with ~200 overlap improves recall.",
+          "confidence": 0.77,
+          "citations": [
+            {
+              "source_id": "SRC_RFC_TRADEOFFS",
+              "start": 206,
+              "end": 260
+            }
+          ]
+        },
+        {
+          "text": "MiniLM embeddings provide fast, adequate quality for a personal corpus.",
+          "confidence": 0.74,
+          "citations": [
+            {
+              "source_id": "SRC_RFC_TRADEOFFS",
+              "start": 62,
+              "end": 97
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "API Surface",
+      "summary": "Expose a /search endpoint to return top-k chunks with scores and snippet previews.",
+      "confidence": 0.79,
+      "claims": [
+        {
+          "text": "Add a `/search` endpoint returning chunk_id, score, and preview snippet.",
+          "confidence": 0.76,
+          "citations": [
+            {
+              "source_id": "SRC_RFC_VECTOR",
+              "start": 76,
+              "end": 152
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

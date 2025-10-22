@@ -1,0 +1,1 @@
+"""InsightFlow FastAPI application package."""
